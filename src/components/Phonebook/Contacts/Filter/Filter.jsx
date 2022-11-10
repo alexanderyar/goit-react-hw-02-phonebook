@@ -1,5 +1,8 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
+
     
 export class Filter extends React.Component {
 
@@ -15,7 +18,6 @@ export class Filter extends React.Component {
     //     // this.props.filterFunc(this.state.inputValue)
     // }
 
-    
     render() {
         return (
         <label htmlFor="filter">
@@ -25,4 +27,9 @@ export class Filter extends React.Component {
     )
     }
     
+}
+
+Filter.propTypes = {
+    inputValue: PropTypes.string,
+    filterFunc: PropTypes.func
 }

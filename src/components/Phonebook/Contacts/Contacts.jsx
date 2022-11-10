@@ -26,6 +26,8 @@ Contacts.propTypes = {
             name: PropTypes.string.isRequired,
             number: PropTypes.number.isRequired,
             
-            })
-    )
+        })),
+    filterFunc: PropTypes.func,
+    inputValue: PropTypes.string,
+    onDeleteClick: PropTypes.func,
 }

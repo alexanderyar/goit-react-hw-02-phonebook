@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Formik, Form, Field } from 'formik';
 import styled from 'styled-components';
 
@@ -61,4 +63,8 @@ handleSubmit = (values, {resetForm}) => {
        </Formik>
     )
 }
+}
+
+FormikForm.propTypes = {
+    initialValues: PropTypes.objectOf(PropTypes.string),
 }

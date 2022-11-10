@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 
 import { nanoid } from 'nanoid'
@@ -75,4 +76,9 @@ export class Phonebook extends React.Component {
        
     }
     
+}
+
+Phonebook.propTypes = {
+    newContactName: PropTypes.objectOf(PropTypes.string),
+    id: PropTypes.string.isRequired,
 }
