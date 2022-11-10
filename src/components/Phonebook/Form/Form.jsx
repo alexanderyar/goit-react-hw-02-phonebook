@@ -1,18 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { ButtonStyled, FormStyled, Input } from './Form.styled';
 import { Formik, Form, Field } from 'formik';
-import styled from 'styled-components';
 
-const Input = styled(Field)`
-color:green;`
 
-const FormStyled = styled(Form)`
-border: 3px dashed black;
-`
 
-const ButtonStyled = styled.button`
-display:block;`
+
+
+
 
 const initialValues = {
     name: '',
