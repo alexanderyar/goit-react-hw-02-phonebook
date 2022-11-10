@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ButtonStyled, FormStyled, Input } from './Form.styled';
-import { Formik, Form, Field } from 'formik';
+import { Formik } from 'formik';
 
 
 
