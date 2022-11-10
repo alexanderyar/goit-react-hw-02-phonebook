@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Phonebook } from "./Phonebook/Phonebook";
-import { Widget } from "./Widget/Widget";
+
 
 
 export const App = () => {
@@ -19,7 +19,7 @@ export const App = () => {
       // }}
       >
      
-        <Widget />
+
         <Phonebook />
     </div>
   );
