@@ -1,8 +1,9 @@
-import { Widget } from "./Widget/Widget";
+
 
 import React from "react";
 import { Component } from "react";
 import { Phonebook } from "./Phonebook/Phonebook";
+import { Widget } from "./Widget/Widget";
 
 
 export const App = () => {
