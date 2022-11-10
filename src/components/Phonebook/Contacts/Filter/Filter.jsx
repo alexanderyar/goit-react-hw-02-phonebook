@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { render } from '@testing-library/react'
-
     
 export class Filter extends React.Component {
 

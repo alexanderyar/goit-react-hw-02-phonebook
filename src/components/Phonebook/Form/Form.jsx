@@ -1,7 +1,5 @@
 import React from 'react'
 import { Formik, Form, Field } from 'formik';
-import PropTypes from 'prop-types'
-import { nanoid } from 'nanoid'
 import styled from 'styled-components';
 
 const Input = styled(Field)`

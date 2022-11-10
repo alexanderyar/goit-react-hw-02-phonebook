@@ -1,4 +1,3 @@
-import { Text } from "./Widget.styled"
 
 
 export const Section = ({title, children}) => {

@@ -1,8 +1,7 @@
 import React from 'react'
 
-import PropTypes from 'prop-types'
 
-import { Text, Button, FeedbackCount, WidgetWrapper, NotificationForTheBox } from './Widget.styled'
+import { Text, WidgetWrapper, NotificationForTheBox } from './Widget.styled'
 import { Statistics } from './Statistics'
 import { FeedbackOptions } from './FeedbackOptions'
 import { Section } from './SectionTitle'
@@ -22,7 +21,6 @@ state = {
 
 
     handleFeedbackIncrement = (event, status) => {
-        const { target } = event;
        
         this.setState((prevState) => {
             return {

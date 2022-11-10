@@ -6,7 +6,6 @@ import { nanoid } from 'nanoid'
 import { FormikForm } from './Form/Form'
 import { Contacts } from './Contacts/Contacts'
 import { PhonebookWrapper } from './Phonebook.styled'
-import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers'
 
 export class Phonebook extends React.Component {
     // nanoid()
